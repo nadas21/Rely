@@ -1,0 +1,130 @@
+.header-inner {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-item {
+  margin-left: 46px;
+}
+.header-item:nth-child(1) {
+  margin-left: 0px;
+}
+.header-item-link {
+  color: #322F2E;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 133.333% */
+}
+.header-btn {
+  border-radius: 50px;
+background: #C47344;
+margin-left: 30px;
+border: none;
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+padding: 13px 28px;
+}
+.hamburger {
+  display: none;
+}
+.close-btn {
+  display: none;
+}
+@media (max-width: 900px) {
+  .header-btn {
+  margin-left: 20px;
+  font-size: 14px;
+  padding: 7px 18px;
+  }
+  .header-item {
+    margin-left: 30px;
+  }
+  .header-logo {
+    width: 100px;
+    height: 20px;
+  }
+  .header-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .header-box {
+    background-color: #84efff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+  }
+  .header-box-extra {
+    background-color: #84efff;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    display: none;
+  }
+  .header-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .header-item-link {
+    text-align: center;
+  }
+  .header-btn {
+  margin-left: 0px;
+  font-size: 14px;
+  padding: 7px 18px;
+  margin-top: 40px;
+  }
+  .header-item {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .header-logo {
+    width: 100px;
+    height: 20px;
+  }
+  .header-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}

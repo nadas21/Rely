@@ -1,0 +1,47 @@
+.now-card {
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 10px;
+background: #FAF7F3;
+width: 1200px;
+height: 413px;
+flex-shrink: 0;
+margin-left: 51px;
+}
+.now-item-card {
+    margin-left: 51px;
+}
+.now-text {
+    color: #1A1918;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 135% */
+margin-top: 89px;
+}
+.now-p {
+    color: #322F2E;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+margin-top: 24px;
+}
+.naw-input {
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.10);
+color: rgba(0, 0, 0, 0.45);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+padding: 12px 60px;
+margin-top: 31px;
+}
+.now-odam{
+    margin-top: 43px;
+}

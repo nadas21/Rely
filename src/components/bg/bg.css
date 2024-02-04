@@ -1,0 +1,25 @@
+.bg {
+  padding: 335px 0;
+  background-image: url(../../assets/img/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50%);
+}
+
+@media (max-width: 960px ){
+  .bg{
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+   margin-left: 5%;
+   margin-top: -240px;
+  }
+}
+@media (max-width: 400px ){
+  .bg{
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    margin-top: -300px;
+  }
+}

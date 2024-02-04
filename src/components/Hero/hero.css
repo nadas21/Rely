@@ -1,0 +1,139 @@
+.hero-inner {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-btn-box {
+  display: flex;
+  align-items: center;
+}
+.hero-btn-left {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 208.333% */
+border: none;
+padding: 0 14px;
+border-radius: 20px;
+background: #F9A38F;
+}
+.hero-btn-right {
+  color: #4D4D4D;
+text-align: center;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 192.308% */
+border-radius: 20px;
+background: #f9e6e2;
+padding: 0 14px;
+border: none;
+transform: translate(-10px);
+}
+.hero-title {
+  color: #322F2E;
+text-align: center;
+font-family: Roboto;
+font-size: 110px;
+font-style: normal;
+font-weight: 700;
+line-height: 119px; /* 108.182% */
+margin-top: 11px;
+margin-bottom: 28px;
+}
+.hero-text {
+  max-width: 524px;
+  color: #322F2E;
+text-align: center;
+font-family: Roboto;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px; /* 157.143% */
+margin-bottom: 20px;
+}
+.hero-btn {
+  border-radius: 50px;
+background: #C47344;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+padding: 14px 32px;
+}
+.hero-list {
+  display: flex;
+  align-items: center;
+}
+.hero-item {
+  margin-left: 35px;
+}
+.hero-item:nth-child(1) {
+  margin-left: 0px;
+}
+.hero-link-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+.herolink-img {
+  margin-left: 5px;
+}
+
+
+
+@media (max-width: 905px ){
+  .hero-title {
+    font-size: 60px;
+  }
+  .hero-text {
+    font-size: 20px;
+  }
+  .hero-btn {
+    padding: 7px 18px;
+  }
+  .hero-item {
+   text-align: center;
+   padding: 0px 20px;
+  }
+  .hero-img {
+    width: 10%;
+  }
+}
+@media (max-width: 910px ){
+  .hero-title {
+    font-size: 50px;
+    
+  }
+  .hero-text {
+    font-size: 15px;
+  }
+  .hero-btn {
+    padding: 7px 18px;
+  }
+  .hero-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .hero-item {
+   text-align: center;
+   padding: 0px 20px;
+  }
+  .hero-img {
+    width: 100%;
+
+  }
+}
